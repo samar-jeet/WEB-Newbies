@@ -1,0 +1,236 @@
+#heading {
+  width: 30vw;
+  height: 10vh;
+  position: relative;
+  top: 3.2vh;
+  left: 3vw;
+}
+
+#span-p2-one {
+  display: inline-block;
+  width: 25vw;
+  height: 8vh;
+  font-family: sans-serif;
+  font-size: 1.4vw;
+  color: red;
+}
+
+#food-list {
+  width: 65vw;
+  height: 57vh;
+  background-color: rgba(243, 155, 104, 0.425);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 0.1vh solid red;
+  overflow-y: scroll;
+}
+
+#food-list::-webkit-scrollbar {
+  width: 1vh;
+}
+
+#food-list::-webkit-scrollbar-track {
+  background-color: rgba(245, 149, 125, 0.651);
+  border-radius: 1vh;
+}
+
+#food-list::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 102, 0);
+  border-radius: 1vh;
+}
+
+.food_items {
+  width: 18vw;
+  height: 28vh;
+  background-color: #ffe7da;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+
+#add_new {
+  width: 8vw;
+  height: 5vh;
+  background-color: #00d179;
+  margin-top: 1vh;
+  margin-left: 18vw;
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-family: "Lato", sans-serif;
+  border-radius: 1.4vw;
+  line-height: 4.8vh;
+}
+
+#add_new:hover {
+  background-color: darkblue;
+}
+
+.food_item_heading {
+  background-color: #f24e1e;
+  align-items: center;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  color: white;
+  width: 16.1vw;
+  height: 5vh;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2vh;
+  line-height: 4.7vh;
+}
+
+.food_item_img {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  width: 16vw;
+  margin: 0 auto;
+  border: 0.1vh solid red;
+}
+.food_img {
+  max-height: 15vh;
+  max-width: 16vw;
+  object-fit: contain;
+}
+.food_item_price {
+  width: 16.1vw;
+  height: 4vh;
+  margin: 0 auto;
+}
+
+.time_edit {
+  display: inline-block;
+  position: relative;
+  left: 6vw;
+  top: 0.5vh;
+  margin-top: 0.4vh;
+  color: grey;
+}
+
+.edit {
+  display: inline-block;
+  color: white;
+  font-family: sans-serif;
+  background-color: #f24e1e;
+  position: relative;
+  left: 6.5vw;
+  border-radius: 5%;
+  text-align: center;
+  height: 4vh;
+  width: 4.8vw;
+}
+
+.item_span {
+  width: 3vh;
+  height: 3vh;
+  line-height: 18px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+}
+
+.item_span:hover {
+  color: red;
+  background-color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 0.4vw;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  width: 60vw;
+  height: 40vh;
+  font-family: sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.close-modal {
+  color: #333;
+  position: relative;
+  left: 28vw;
+  cursor: pointer;
+  font-size: 3vw;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.option {
+  display: inline-block;
+  position: relative;
+  top: 10vh;
+  background-color: #ffe7da;
+  color: red;
+  border: 0.1vw solid rgb(143, 11, 143);
+  border-radius: 2vw;
+  width: 8vw;
+  height: 5vh;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.yes {
+  right: 10vw;
+}
+
+.option:hover {
+  border: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.no {
+  left: 10vw;
+}
+
+.foodName {
+  font-variant: small-caps;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  position: relative;
+  width: 85%;
+  left: 1vw;
+}
+
+.image {
+  width: 16vw;
+  height: 15vh;
+}
+
+.price {
+  position: relative;
+  top: 0.5vh;
+  left: 0.8vw;
+  color: red;
+  font-size: 1.1vw;
+}
+
+.edit_text {
+  display: inline-block;
+  position: relative;
+  top: 0.7vh;
+  left: 0.1vw;
+}

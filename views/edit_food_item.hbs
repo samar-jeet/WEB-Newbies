@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Food Item</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Acme&family=Laila:wght@300;500&family=Lalezar&family=Lato:wght@400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="/css/basic.css">
+    <link rel="stylesheet" href="/css/link.css">
+    <link rel="stylesheet" href="/css/edit_food_item.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo"></div>
+        <h1 id ="website-name">Website</h3>
+        <h1 id="customer-name">Hello Mr. Name</h1>
+        <img class="smiley" src="/images/smiley.png" alt="mi">
+    </div>
+
+    <div id="main">
+        <div class="button-home grp1 home"><span class = "span-button-home"><img src="/images/home_icon.png" alt="hi" style="height: 2.5vh; width: 1.5vw; margin-left: 0.4vw; margin-right: 4px; display: inline-block;"><a>Home</a></span></div>
+        <div class="buttons grp1"><span class = "span-button-one"><a>About</a></span></div>
+        <div class="buttons grp2"><span class = "span-button-one"><a>Profile</a></span></div>
+        <div class="buttons grp2"><span class = "span-button-one"><a>Logout</a></span></div>
+        <hr id = "first-break">
+        <div id="heading">
+            <span id="span-p2-one"><span>Restaurent's Name</span> / <small>Item Name</small></span>
+        </div>
+        <h1 id="item_name">Item's Name</h1>
+
+        <hr class="separation_line">
+        <hr class="separation_line">
+        <br>
+
+        <div class="container">
+            <div class="containerC1"><img src="" alt="Image of Food Item" id="foodItemImage"></div>
+            <div class="containerC2">
+                <h1 id="foodItemReview">Reviews</h1>
+                <hr id="reviewSeparationLine">
+                <div id="allReviews">
+                    <div id="customerReview">
+                        <span id="customerName">Customer -1: </span>
+                        <span id="reviewGivenByCustomer"> This food is very tasty😋</span> {{!--Add Line Breaks to reviews--}}
+                    </div>
+                    <div id="customerReview">
+                        <span id="customerName">Customer -1: </span>
+                        <span id="reviewGivenByCustomer"> This food is very tasty😋</span> {{!--Add Line Breaks to reviews--}}
+                    </div>
+                    <div id="customerReview">
+                        <span id="customerName">Customer -1: </span>
+                        <span id="reviewGivenByCustomer"> This food is very tasty😋</span> {{!--Add Line Breaks to reviews--}}
+                    </div>
+                    <div id="customerReview">
+                        <span id="customerName">Customer -1: </span>
+                        <span id="reviewGivenByCustomer"> This food is very tasty😋</span> {{!--Add Line Breaks to reviews--}}
+                    </div>
+                </div>
+            </div>
+            <div class="containerC3 foodDetails" style="height: 50vh;"></div>
+            <div class="containerC4 foodIngredients"></div>
+        </div><br>
+            <button id="btn" >EDIT</button>
+    </div>
+
+    <div id="footer">
+        <p id = "first-para"><span id="span-one">Website Name</span></p>
+        <p id = "second-para">About</p>
+        <hr id = "second-break">
+        <p id="third-para"><span>Copyright &copy; website name. All rights reserved</span></p>
+    </div>
+    <script src="/js/edit_food_item.js"></script>
+</body>
+</html>
