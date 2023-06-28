@@ -1,5 +1,4 @@
-# WEB-Newbies
-## Smart Restaurant
+# Smart-Resta
 
 ### Team Name : [WEB Newbies](https://github.com/Kitashi14/WEB-Newbies)
 
